@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- <!DOCTYPE html> declaration before the <html> tag. HTML <!DOCTYPE> tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). 
+ e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc.
+-->
+
+<html lang="en">
+  <head>
+    <title>First app</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Documents ~/.../../styles.css -->
+    <!-- <script type="module" src="script.js"></script> -->
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Page</a>
+      <a href="form.html">Form page</a>
+    </nav>
+    <main>
+      <h1>Home</h1>
+      <p> paragraph</p>
+      <span>&nbsp;/</span><span>&lt;</span><span>&gt;</span><span>&amp;</span><span>&copy;</span>
+      <!-- Unordered List -->
+      <ul>
+        <li>list1</li>
+        <li>list2</li>
+      </ul>
+      <!-- Ordered List -->
+      <ol>
+        <li>list1</li>
+        <li>list2</li>
+      </ol>
+      <!-- Description List -->
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+      <!-- Nested List -->
+      <ul>
+        <li>
+          Beverages
+          <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+        </li>
+        <li>
+          Cars
+          <ol>
+            <li>Benz</li>
+            <li>BMW</li>
+            <li>Audi</li>
+          </ol>
+        </li>
+      </ul>
+      <!-- Table -->
+      <table border="1">
+        <tr>
+          <th rowspan="2">Company</th>
+          <th>Contact</th>
+          <th colspan="2">Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+      <!-- Links -->
+      <!-- target	_blank _parent _self _top -->
+      <a href="https://www.google.com" target="_blank">Link</a>
+    </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- Images -->
+      <img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=67773a9d419786091c958b2ad08eae5e" width="200" alt="Puppy" />
+      
+      <article>This is an article</article>
+    </main>
+  </body>
+</html>
